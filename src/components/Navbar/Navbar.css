@@ -31,7 +31,7 @@
      margin-right: 4rem;
  }
 
- .nav-list>ul>li:hover {
+ .text-link>li:hover {
      cursor: pointer;
      color: var(--orange);
  }

@@ -26,6 +26,7 @@ const Navbar = () => {
         <div className="nav-list">
           <ul style={{ listStyleType: "none" }}>
             <Link
+              className="text-link"
               spy={true}
               to="Navbar"
               offset={50}
@@ -35,6 +36,7 @@ const Navbar = () => {
               <li>Home</li>
             </Link>
             <Link
+              className="text-link"
               spy={true}
               to="About"
               smooth={true}
@@ -44,11 +46,18 @@ const Navbar = () => {
               <li>About</li>
             </Link>
 
-            <Link spy={true} to="Skill" smooth={true} activeClass="activeClass">
+            <Link
+              spy={true}
+              to="Skill"
+              smooth={true}
+              activeClass="activeClass"
+              className="text-link"
+            >
               <li>Skill</li>
             </Link>
 
             <Link
+              className="text-link"
               spy={true}
               to="Contact"
               smooth={true}
