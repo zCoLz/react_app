@@ -7,7 +7,7 @@ import Card from "../Card/Card";
 import Resume from "../About/CV_Intern.pdf";
 const About = () => {
   return (
-    <div className="About">
+    <div className="About" id="About">
       {/* Left Side */}
       <div className="POMySelf">
         <span>Things I Am </span>
@@ -27,23 +27,25 @@ const About = () => {
         <div style={{ left: "22rem" }}>
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Balsamiq, PTS Basic"}
+            heading={"Teamwork"}
+            detail={
+              "Coordinate with all members to ensure the best progress and efficiency"
+            }
           />
         </div>
         <div style={{ top: "12rem", left: "1rem" }}>
           <Card
-            emoji={Glasses}
-            heading={"Developer"}
-            detail={"HTML,CSS,JavScript,ReactJS"}
+            emoji={Humble}
+            heading={"Self Learning"}
+            detail={"By being curious and set learning goals"}
           />
         </div>
         <div style={{ top: "21rem", left: "19rem" }}>
           <Card
-            emoji={Humble}
-            heading={"UI/UX"}
+            emoji={Glasses}
+            heading={"Web development"}
             detail={
-              "Lorem ipsum is placeholder text commonly used in the graphic."
+              "I am a  web developer ReactJS, HTML, CSS, Javascrip, Figma "
             }
           />
         </div>

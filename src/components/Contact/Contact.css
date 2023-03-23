@@ -1,0 +1,107 @@
+/* .Contacts {
+    padding: 0 4rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact_with {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.ct_info {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* .POMySelf {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} */
+.head_text {
+    font-size: 2.75rem;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.Contacts {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.Contact_content {
+    flex: 1 1;
+    flex-direction: column;
+    padding: 4rem 2rem;
+    width: 100%;
+}
+
+.ct {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Footer_contact {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 4em 2rem 2rem;
+    width: 60%;
+}
+
+.contact_card>img {
+    max-width: 50px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.Footer_contact .contact_card>a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.p-text {
+    color: var(--gray-color);
+    font-size: .8rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.contact_card {
+    padding: 1rem;
+}
+
+.Footer_contact .contact_card {
+
+    align-items: center;
+    background-color: #fef4f5;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1rem 0;
+    min-width: 290px;
+    max-height: 40px;
+    padding: 1rem;
+    transition: all .3s ease-in-out;
+}
+
+.Footer_contact .contact_card:last-child {
+    background-color: #f2f7fb;
+}
